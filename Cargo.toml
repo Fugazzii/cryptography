@@ -1,4 +1,4 @@
-workspace = { members = ["xrand"] }
+workspace = { members = [ "xash", "xrand", "xsymmetric"] }
 [package]
 name = "cryptography"
 version = "0.1.0"
@@ -8,3 +8,5 @@ edition = "2021"
 
 [dependencies]
 xrand = { path = "./xrand" }
+xash = { path = "./xash" }
+xsymmetric = { path = "./xsymmetric" }
