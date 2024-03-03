@@ -1,6 +1,7 @@
-use xrand::rand::Rand;
+use xec::ec::EllipticCurve;
 
 fn main() {
-    let generator = Rand::new();
-    print!("Hello")
+    let curve = EllipticCurve::new(2, 3);
+
+    println!("{}", curve);
 }
