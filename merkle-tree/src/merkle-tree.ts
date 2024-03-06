@@ -1,4 +1,3 @@
-import { CryptoHasher } from "bun";
 import { MerkleNode } from "./merkle-node";
 
 export class MerkleTree {
