@@ -3,9 +3,13 @@
   "module": "./src/main.ts",
   "type": "module",
   "devDependencies": {
+    "@types/snarkjs": "^0.7.8",
     "bun-types": "latest"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "snarkjs": "^0.7.3"
   }
 }
