@@ -1,11 +1,16 @@
-import snarkjs from "snarkjs";
+// import { Pedersen } from "./pedersen";
+// import { MerkleTree } from "./merkle-tree";
 
-class Mixer {
-    private readonly circuit: unknown;
+// class Mixer {
 
-    public constructor() {}
+//     private readonly merkleTree: MerkleTree;
+//     private readonly pedersen: Pedersen;
 
-    public deposit() {}
+//     public constructor() {
+//         this.merkleTree = new MerkleTree(20);
+//     }
 
-    public withdraw() {}
-}
+//     public deposit() {}
+
+//     public withdraw() {}
+// }
